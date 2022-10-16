@@ -139,7 +139,7 @@ nav.sticky{
 }
 
 .left-sidebar{
-    background: #cbdffa;
+    background: #efefef;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
@@ -171,7 +171,7 @@ nav.sticky{
 
 .main-content{
     flex-basis: 47%;
-    background-color:rgb(213, 213, 213);
+    background-color:#efefef;
     margin-bottom: -20px;
     position: sticky;
     margin-top: -8px;
