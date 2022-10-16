@@ -135,7 +135,7 @@ nav.sticky{
     display: flex;
     justify-content: space-between;
     padding: 13px 5%;
-
+    
 }
 
 .left-sidebar{
@@ -146,11 +146,12 @@ nav.sticky{
     align-self: flex-start;
     height: fit-content;
     margin-left: -84px;
-    margin-top: -8px;
+    margin-top: -5px;
     width: fit-content;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     margin-bottom: -20px;
-    bottom: 0;
+    left: 0;
+    z-index: 0;
     
 }
 
@@ -161,6 +162,11 @@ nav.sticky{
     top: 70px;
     align-self: flex-start;
     margin-bottom: -20px;
+    padding: 20px;
+    
+    background: #ffff;
+    border-radius: 4px;
+    margin-top: -4px;
 }
 
 .main-content{
@@ -233,10 +239,15 @@ nav.sticky{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #626262;
     width: fit-content;
-    margin-top: 10px;
+    margin-top: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
+}
+
+.shortcuts p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .shortcuts a:hover{
@@ -264,7 +275,166 @@ nav.sticky{
     color: black;
 }
 
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -25px;
+    margin-bottom: -4px;
+}
 
+
+
+.sidebar-title h4{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.sidebar-title h4:hover i{
+    color: red;
+    transform: scale(1.08,1.08);
+    transition: 0.5s;
+}
+
+.sidebar-title h4:hover{
+    transform: scale(1.08,1.08);
+    transition: 0.5s;
+}
+
+.sidebar-title a{
+    color: blue;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-title i{
+    color: #1876f2;
+    cursor: pointer;
+}
+
+.sidebar-title i:hover{
+    color: red;
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
+
+.event{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.event p{
+    font-size: 12px;
+}
+
+.event a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.left-event{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    
+}
+
+.left-event h4{
+    margin-top: 9px;
+    margin-bottom: 10px;
+    
+}
+
+.left-event span{
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 0;
+}
+
+
+.right-event{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right-event h4{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.right-event p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.right-event a{
+    margin-top: 2px;
+}
+
+.right-event i{
+    color: #1876f2;
+    cursor: pointer;
+}
+
+.right-event i:hover{
+    color: red;
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
+
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.online-list .online{
+    display: flex;
+    align-items: center;
+    
+}
+
+.online-list .online{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.online-list{
+    padding-top: -28px;
+   
+}
+
+
+.online img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+.online p{
+    margin-left: 20px;
+    font-weight: 500px;
+}
 
 ::-webkit-scrollbar{
     background: transparent;
