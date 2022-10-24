@@ -1,0 +1,193 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.logform{
+    
+    justify-content: center;
+
+    width: 64vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.verification{
+    background-color: white;
+    width: 64vh;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.verification i{
+    font-size: 200px;
+    color: #00fe61;
+    animation: shake 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+
+
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+.verification input{
+    border-radius: 5px;
+    outline: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -50%);
+    text-align: center;
+    border: none;
+    padding: 8px;
+}
+
+.verification h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    transform: translate(0%,-100%);
+}
+
+.verification p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: translate(0%, -40%);
+}
+
+#showpop{
+    margin-left: 150vh;
+}
+
+
+button{
+    background-color: #1876f2;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 2%;
+    
+}
+
+button i{
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+button:hover{
+    background-color: #00fe61;
+    color: black;
+    transform: scale(1.04,1.04);
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+
+
+
+.lrbtns{
+    margin-bottom: 4%;
+    
+}
+
+input{
+    background-color:rgb(246, 246, 246);
+    outline: none;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: none;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+input::placeholder{
+    color: black;
+    
+}
+
+input:focus{
+    outline: none;
+    
+}
+
+
+
+.regnow{
+    margin-top: 15%;
+}
+
+.regnow p{
+    color: black;
+}
+
+.regnow p i{
+    color: #1876f2;
+}
+
+.regnow a{
+    text-decoration: none;
+    color: black;
+}
+
+.regnow a i{
+    color: #1876f2;
+}
+
+.regnow a:hover{
+   color: red;
+}
+
+.regnow a:hover i{
+    color: red;
+ }
+
+

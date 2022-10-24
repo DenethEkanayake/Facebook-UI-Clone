@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Login Or Register To SocialBook</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <script src="https://kit.fontawesome.com/f2968dadcd.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="verification" id="verification">
+        <i class="fa-solid fa-envelope-circle-check"></i>
+        <h1>Verification Code Has Been Sent to </h1>
+        <h3 id="emailaddress">Email Address Here:)</h3>
+        <p>We've Sent An Verification Code To Your Email.<br>Check Your Email<br> Also Remember To Check The Spam Folder</p>
+        <form action="../index.html">
+            <input type="text" placeholder="Verification Code" required>
+        <button type="button" onclick="">Resend</button>
+        <button type="submit">Submit</button>
+     </form>      
+    </div>
+
+
+    <div class="logform">
+        <div class="lrbtns">
+            <button><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+            <button><i class="fa-regular fa-id-card"></i>Register</button>
+        </div>
+        <div class="formcon">
+        <form onsubmit="sendEmail(); return false;">
+            <input type="text" placeholder="Email Or Username" id="username" required>
+            <input type="password" placeholder="Password" id="password">
+            <input type="text" placeholder="Phone Number">
+            <button type="submit" class="submitbtn" id="submitbtn" onclick="Spopup()" >Login</button>
+            
+        </form>
+    </div>
+    <div class="regnow">
+        <p><i class="fa-solid fa-user"></i> Not Signed in?</p><a href="#"><i class="fa-regular fa-registered"></i> Register</a>
+    </div>
+    
+    
+
+    </div>
+    <button id="showpop"  >None</button>
+</body>
+</html>
